@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: rgb(162, 179, 187);
+  height: 100vh;
+  display: flex;
+}
+
+.main-container {
+  width: 500px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: ghostwhite;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.main-container__image {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.main-container__image img:nth-child(1){
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  object-position: center;
+  position: absolute;
+}
+
+.main-container__image img:nth-child(2) {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 3px solid ghostwhite;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  bottom: -70px;
+  left: 175px;
+}
+.main-container__title {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.main-container__title h1 {
+  font-size: 2.8rem;
+}
+
+.main-container__title p {
+  font-size: 1.8rem;
+}
+
+.frase p {
+  font-size: 2rem;
+  font-style: oblique;
+}
+
+.main-container__contact {
+  width: 100%;
+}
+
+.container__contact {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+}
+
+.container__contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.container__contact a:hover {
+  text-decoration: underline;
+  color: darkcyan;
+}
+
+.container__contact a span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container__contact a .ubicacion {
+  background-image: url(https://img2.freepng.es/20180405/flw/kisspng-computer-icons-map-symbol-map-icon-5ac5db378c4ea0.7038675015229161515747.jpg);
+}
+
+.container__contact a .email {
+  background-image: url(https://w7.pngwing.com/pngs/14/238/png-transparent-email-computer-icons-maxcuttm-inc-email-miscellaneous-cdr-angle.png);
+}
+
+.container__followers {
+  width: 100%;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.container__followers div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.container__followers div:nth-child(1) {
+  border-right: 2px solid black;
+}
+
+.container__followers div h2 {
+  font-size: 2.5rem;
+}
+
+.container__followers div p {
+  font-size: 1.8rem;
+}
+
+.main-container__contact button {
+  width: 100%;
+  height: 70px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: cadetblue;
+}
+
+.container__boton p {
+  font-size: 2.6rem;
+}
+
+
+
